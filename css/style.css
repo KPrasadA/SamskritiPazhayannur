@@ -106,7 +106,9 @@ a:hover{
 	color:white;
 }
 
-
+img{
+	height: 100%;
+}
 
 
 
@@ -162,7 +164,7 @@ a:hover{
 @media(max-width :768px)
 {
 	.carousel-item{
-		min-height: 30vh;
+		min-height: 60vh;
 		font-size: calc(1.525rem + 3.3vw);
 	}
 	.slider-btn
