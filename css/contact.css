@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+html, body{
+	font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 600;
+	font-size: 15px;
+	line-height: 1.5;
+}
+body{
+  background-color: whitesmoke;
+}
+
+ul{
+	list-style-type: none;
+
+}
+.navbar{
+	background: white;
+	border-bottom: black;
+}
+.navbar .navbar-brand a{
+	padding: 1rem 0;
+	display: block;
+	text-decoration: none;
+
+}
+.navbar-brand{
+	font-family: 'Fleur De Leah', cursive;
+	font-size: 2.5rem;
+	color: #e74c3c;
+	font-weight:400;
+}
+.navbar-brand:hover
+{
+	color: #0a3d62;
+}
+.navbar-toggler{
+	background: #e74c3c;
+	border: none;
+	padding: 10px 6px;
+	outline: none;
+}
+.navbar-toggler span{
+	display: block;
+	width: 22px;
+	height: 2px;
+	border: 1px;
+	background: #fff;
+}
+.navbar-toggler span +span{
+	margin-top: 4px;
+	width: 18px;
+	margin-left: 4px;
+}
+.navbar-toggler span +span +span{
+	width: 10px;
+	margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding: 2rem 1.2rem;
+	font-size: 1.4rem;
+	position: relative;
+	
+}
+.nav-link{
+	color: #0a3d62;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	border-top: 4px solid #e74c3c;
+	color: #e74c3c;
+	
+}
+.navbar-expand-lg .navbar-nav .nav-link:active{
+	border-top: 4px solid #e74c3c;
+	color: #e74c3c;
+}
+.navbar-nav button{
+	padding: 1.2rem 0;
+}
+.navbar-nav .btn{
+	background-color: #e74c3c;
+	color: white;
+	border-radius: 0;
+	padding: 1rem 1.5rem;
+	font-size: 1.2rem;
+	margin-top: -10px;
+}
+.navbar-nav .btn:hover{
+	background-color: #0a3d62;
+    color: #fff;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+}
