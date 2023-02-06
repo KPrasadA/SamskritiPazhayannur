@@ -167,10 +167,12 @@ img{
 	.carousel-item{
 		min-height: 60vh;
 		font-size: calc(1.525rem + 3.3vw);
+		
 	}
 	.slider-btn
 	{
 		display: block;
 		font-size: calc(1.525rem + 3.3vw);
+		
 	}
 }
