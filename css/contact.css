@@ -99,3 +99,6 @@ footer{
     bottom: 0px;
     width:100%;
 }
+.contact :hover{
+	color: #0a3d62;
+}
